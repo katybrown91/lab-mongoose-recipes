@@ -32,7 +32,7 @@ Recipe.create({title: 'Asian Glazed Chicken Thighs',
    if (err) {
            console.log('An error happened:', err);
    } else {
-       console.log('The user is saved and its value is: ', Recipe);
+       console.log('The user is saved ', Recipe);
    }
   
 });
